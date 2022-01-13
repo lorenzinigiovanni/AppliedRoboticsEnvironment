@@ -397,8 +397,8 @@ namespace professor {
       // Robot 0 blue
       cv::inRange(hsv_img, cv::Scalar(90, 50, 50), cv::Scalar(140, 255, 255), robot_mask);
     } else if (ns == "/my_robot_1") {
-      // Robot 1 yellow
-      cv::inRange(hsv_img, cv::Scalar(15, 0, 0), cv::Scalar(36, 255, 255), robot_mask);
+      // Robot 1 purple
+      cv::inRange(hsv_img, cv::Scalar(145, 100, 50), cv::Scalar(165, 255, 255), robot_mask);
     } else if (ns == "/my_robot_2") {
       // Robot 2 green
       cv::inRange(hsv_img, cv::Scalar(45, 50, 26), cv::Scalar(100, 255, 255), robot_mask);
